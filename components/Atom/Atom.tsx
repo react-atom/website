@@ -1,4 +1,6 @@
-import atom from '@react-atom/styled-components';
-import tokens from '@react-atom/tokens';
+import atom from '@react-atom/style';
+import { TOKENS } from '../../constants';
 
-export const Atom = atom(tokens);
+export const Atom = atom(TOKENS);
+
+export type AtomProps = Parameters<typeof Atom>[0];
