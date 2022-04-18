@@ -14,14 +14,14 @@ const PageIndex = () => {
         <title>React Atom - Build your application atomic by your design</title>
       </Head>
       <Header />
-      <Atom h={310} bg="white" flex={{ direction: 'column', justify: 'center', align: 'center' }} position="relative">
+      <Atom h={310} bg="white" flex flexDirection="column" flexJustify="center" flexAlign="center" position="relative">
         <Atom fontSize="big" fontWeight="bold">
           React Atom
         </Atom>
         <Atom mt="1x" c="textSecondary">
           Build your application atomic with your design!
         </Atom>
-        <Atom mt="4x" fontSize="title3" fontWeight="semiBold" textAlign="center" flex={{ gap: '3x' }}>
+        <Atom mt="4x" fontSize="title3" fontWeight="semiBold" textAlign="center" flex gap="3x">
           <Link passHref href="/get-started">
             <Button various="primary" w={200}>
               Get started
@@ -33,12 +33,12 @@ const PageIndex = () => {
             </Button>
           </Link>
         </Atom>
-        <Atom position="absolute" top={0} right="8x" h="fill" flex={{ align: 'center' }}>
+        <Atom position="absolute" top={0} right="8x" h="fill" flex flexAlign="center">
           <Atom w={160} h={160} borderRadius="50%" bg="primary" opacity="8%" />
           <Atom ml={-60} w={200} h={200} borderRadius="50%" bg="primary" opacity="5%" />
         </Atom>
       </Atom>
-      <Atom w="80%" mx="auto" py="8x" grid={{ columns: 3, gap: ['2x', '4x'] }}>
+      <Atom w="80%" mx="auto" py="8x" grid gridColumns={3} columnGap="2x" rowGap="4x">
         <Atom fontSize="title1" fontWeight="semiBold">
           Simple & Efficient
         </Atom>
@@ -62,7 +62,7 @@ const PageIndex = () => {
           @react-atom/styled-components based on styled-components, and @react-atom/emotion based on emotion.
         </Atom>
       </Atom>
-      <Atom w="80%" mx="auto" flex={{ direction: 'column', align: 'center' }}>
+      <Atom w="80%" mx="auto" flex flexDirection="column" flexAlign="center">
         <Atom fontSize="title1" fontWeight="semiBold">
           Playground
         </Atom>

@@ -9,7 +9,7 @@ const PageGetStarted = () => {
         <title>React Atom - Get started</title>
       </Head>
       <Header />
-      <Atom w="fill" h={300} flex={{ direction: 'column', justify: 'center', align: 'center', gap: '1x' }}>
+      <Atom w="fill" h={300} flex flexDirection="column" flexJustify="center" flexAlign="center" gap="1x">
         <Atom fontSize="title1" fontWeight="semiBold">
           In process
         </Atom>

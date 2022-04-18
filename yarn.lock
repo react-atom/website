@@ -139,17 +139,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@react-atom/core@^1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@react-atom/core/-/core-1.6.4.tgz#3733a298bc458eea329fa99ec15a85c45006b9f0"
-  integrity sha512-ruNf649SpJvuMSkA4EW2zT+M8O+KH+LwW/zGDTxIORncPr7yAs6pvIvOFLnMkV+TrfM/SuN61pSAoX0PrgI4Wg==
+"@react-atom/core@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@react-atom/core/-/core-2.0.0.tgz#eb471b084ce338c2543218f4e6ea9bb21d35b856"
+  integrity sha512-iB+AwoMJZs9mIS7EjaW7ecvabRq8gWLDoIm1l5lRZpd3xiGdr7FACsftlEN8rWdMI8PSs/01yyGFpQ9ZwjNRmQ==
 
-"@react-atom/style@^1.6.3":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@react-atom/style/-/style-1.6.4.tgz#214895d333fb46446df98d6801c1e5e494b98681"
-  integrity sha512-0LI8tb+hzHxAviGQc9Zc62HJLTEMHYsX7380MC5Kh4w4BlGfLFJg3onxCRivWtU+cwqo1ERSPe+5FYAmGnLUMg==
+"@react-atom/style@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@react-atom/style/-/style-2.0.0.tgz#436051723e19deb70ef59081651bb8fac732c93b"
+  integrity sha512-kn6JxO0A9BB2xUx1E+KtrB9R44ExzX7N6xdBTs+2w26LyUW/AbP3VprmkWhUZIk4kHgXV12TKyK7gIgaobMzgQ==
   dependencies:
-    "@react-atom/core" "^1.6.4"
+    "@react-atom/core" "^2.0.0"
 
 "@rushstack/eslint-patch@1.0.8":
   version "1.0.8"

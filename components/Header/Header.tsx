@@ -6,16 +6,16 @@ import { Logo } from './Logo';
 export const Header = () => {
   return (
     <Atom position="sticky" top={0} bg="white" zIndex="header">
-      <Atom h="8x" px="3x" flex={{ justify: 'space-between', align: 'center' }}>
+      <Atom h="8x" px="3x" flex flexJustify="space-between" flexAlign="center">
         <Link passHref href="/">
-          <Atom flex={{ align: 'center', gap: '1x' }} cursor="pointer">
+          <Atom flex flexAlign="center" gap="1x" cursor="pointer">
             <Logo />
             <Atom fontSize="title1" fontWeight="semiBold" c="primary">
               React Atom
             </Atom>
           </Atom>
         </Link>
-        <Atom flex={{ align: 'center', gap: '3x' }} fontSize="title3" fontWeight="medium">
+        <Atom flex flexAlign="center" gap="3x" fontSize="title3" fontWeight="medium">
           <Link passHref href="/get-started">
             <Atom cursor="pointer">Get started</Atom>
           </Link>

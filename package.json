@@ -10,7 +10,7 @@
     "export": "next build && next export -o _static"
   },
   "dependencies": {
-    "@react-atom/style": "^1.6.3",
+    "@react-atom/style": "^2.0.0",
     "next": "^12.1.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
