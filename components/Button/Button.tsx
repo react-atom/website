@@ -1,3 +1,4 @@
+import { forwardRef } from 'react';
 import { Atom, AtomProps } from '../Atom';
 
 const BUTTON_VARIOUS = {
@@ -18,12 +19,12 @@ type ButtonProps = {
   various: keyof typeof BUTTON_VARIOUS;
 } & AtomProps;
 
-export const Button = (props: ButtonProps) => {
+export const Button = forwardRef<HTMLElement, ButtonProps>((props, ref) => {
   const { various, children, ...atomProps } = props;
 
   return (
-    <Atom px="3x" py="1x" boxSizing="border-box" cursor="pointer" {...BUTTON_VARIOUS[various]} {...atomProps}>
+    <Atom px="3x" py="1x" boxSizing="border-box" cursor="pointer" {...BUTTON_VARIOUS[various]} {...atomProps} ref={ref}>
       {children}
     </Atom>
   );
-};
+});
