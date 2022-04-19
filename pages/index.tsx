@@ -38,7 +38,7 @@ const PageIndex = () => {
           <Atom ml={-60} w={200} h={200} borderRadius="50%" bg="primary" opacity="5%" />
         </Atom>
       </Atom>
-      <Atom w="80%" mx="auto" py="8x" grid gridColumns={3} columnGap="2x" rowGap="4x">
+      <Atom w="80%" mx="auto" py="8x" grid gridColumns={3} columnGap="2x" rowGap="3x">
         <Atom fontSize="title1" fontWeight="semiBold">
           Simple & Efficient
         </Atom>
@@ -65,6 +65,9 @@ const PageIndex = () => {
       <Atom w="80%" mx="auto" flex flexDirection="column" flexAlign="center">
         <Atom fontSize="title1" fontWeight="semiBold">
           Playground
+        </Atom>
+        <Atom mt="1x" c="textSecondary">
+          {"Notice: playground platform don't support typescript autocomplete yet."}
         </Atom>
         <Playground mt="2x" />
       </Atom>
