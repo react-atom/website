@@ -15,6 +15,8 @@ export const TOKENS = {
     '4x': '32px',
     '8x': '64px',
     fill: '100%',
+    visibleWidth: '80%',
+    leftMenu: '240px',
   },
   fontFamily: {
     default: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',

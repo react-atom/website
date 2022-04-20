@@ -22,7 +22,7 @@ const PageIndex = () => {
           Build your application atomic with your design!
         </Atom>
         <Atom mt="4x" fontSize="title3" fontWeight="semiBold" textAlign="center" flex gap="3x">
-          <Link passHref href="/get-started">
+          <Link passHref href="/overview">
             <Button various="primary" w={200}>
               Get started
             </Button>
@@ -38,7 +38,7 @@ const PageIndex = () => {
           <Atom ml={-60} w={200} h={200} borderRadius="50%" bg="primary" opacity="5%" />
         </Atom>
       </Atom>
-      <Atom w="80%" mx="auto" py="8x" grid gridColumns={3} columnGap="2x" rowGap="3x">
+      <Atom w="visibleWidth" mx="auto" py="8x" grid gridColumns={3} columnGap="2x" rowGap="3x">
         <Atom fontSize="title1" fontWeight="semiBold">
           Simple & Efficient
         </Atom>
@@ -62,14 +62,11 @@ const PageIndex = () => {
           @react-atom/styled-components based on styled-components, and @react-atom/emotion based on emotion.
         </Atom>
       </Atom>
-      <Atom w="80%" mx="auto" flex flexDirection="column" flexAlign="center">
+      <Atom w="visibleWidth" mx="auto" flex flexDirection="column" flexAlign="center">
         <Atom fontSize="title1" fontWeight="semiBold">
           Playground
         </Atom>
-        <Atom mt="1x" c="textSecondary">
-          {"Notice: playground platform don't support typescript autocomplete yet."}
-        </Atom>
-        <Playground mt="2x" />
+        <Playground w="fill" mt="2x" />
       </Atom>
       <Footer />
     </Atom>
